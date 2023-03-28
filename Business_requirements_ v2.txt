@@ -1,0 +1,4 @@
+V2 Migration: 
+There are two modification in V2.They are a user can make more than one playlist and need to store the account type of user.
+First one can be achieved by making the playlist attribute not a part of composite primary key in the user table.(which was in V1 as only one playlist for one user). Users will have multiple account types, each with different privileges (the product team is still working on what the types are, but right now it seems like "free", "standard", and "premium" are likely options).Users will have multiple account types, each with different privileges (the product team is still working on what the types are, but right now it seems like "free", "standard", and "premium" are likely options).
+The second modification is achieved by adding a new attribute called account_type in user table.
