@@ -1,5 +1,5 @@
-create database schema;
-use schema;
+create database songs_app;
+use songs_app;
 
 Create table genre(genrename varchar(20) primary key);
 
